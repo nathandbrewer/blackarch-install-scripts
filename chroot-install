@@ -304,15 +304,15 @@ install()
     case "${menu_opt}" in
         "live")
             wprintf "[+] Updating system..."
-            update_system
+            #update_system
             ;;
         "repository")
             wprintf "[+] Updating system..."
-            update_system
-            install_packages_repo
+            #update_system
+            #install_packages_repo
             ;;
         "blackman")
-            install_packages_blackman
+            #install_packages_blackman
             ;;
     esac
 
