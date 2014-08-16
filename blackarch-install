@@ -436,10 +436,10 @@ install()
     set_keymaps
 
     wprintf "[+] Updating system..."
-    update_system
+    #update_system
 
     wprintf "[+] Hard drive configuration..."
-    ask_for_luks
+    #ask_for_luks
     # set HD and defaults
     setup_filesystem
     # start partitioning
